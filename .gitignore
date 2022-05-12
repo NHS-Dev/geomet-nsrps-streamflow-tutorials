@@ -1,3 +1,5 @@
 config.cfg
 .ipynb_checkpoints
 OLD_extras_geomet_examples.ipynb
+DHPS_1km_RiverDischarge_test_data.json
+DHPS_1km_RiverDischarge_test_data.nc
