@@ -2,4 +2,7 @@ config.cfg
 .ipynb_checkpoints
 OLD_extras_geomet_examples.ipynb
 DHPS_1km_RiverDischarge_test_data.json
+WCPS-Rivers_1km_RiverDischarge_test_data.nc
 DHPS_1km_RiverDischarge_test_data.nc
+grab_test_fcasts.py
+
