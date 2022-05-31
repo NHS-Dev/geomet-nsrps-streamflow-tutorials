@@ -30,7 +30,7 @@ We need to apply a better style but fortunately there is one ready to use. Expan
 
 ## View Data
 
-Finally, while the WMS is suited more for raster imagery, you can also view the underlying values by selecting a grid cell using 'Identify'. for this to work in ArcMap, it is necessary to zoom (very) close to the feature(s) of interest, and select 'Identify' from the menu.
+Finally, while the WMS is suited more for raster imagery, you can also view the underlying values by selecting a grid cell using 'Identify'. for this to work in ArcMap, it is necessary to zoom (very) close to the feature(s) of interest, and select 'Identify' from the toolbar.
 
 ![Identify button](images/ArcMap_DHPS_06.png)
 
