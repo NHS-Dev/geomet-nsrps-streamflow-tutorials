@@ -3,11 +3,32 @@
 This example shows how to connect ArcMap to the username/password authenticated Web Map Service (WMS) layers on the Meteorological Service of Canada (MSC) GeoMet platform.
 
 ## Connect to WMS
-First, connect to the Geomet data source by selecting 'Add Data', then if necessary click 'Up One Level' until this level is shown. Double-click 'GIS Servers', then 'Add WMS Server'. We then need to supply a geomet path complete with hidden layer name, e.g. https://geo.weather.gc.ca/geomet?LAYERS=DHPS_1km_RiverDischarge and add User and Password credentials at the bottom. Click OK.
+First, connect to the Geomet data source by selecting 'Add Data'.
 
+![Connect to WMS data source](images/ArcMap_DHPS_01.png)
+
+If necessary click 'Up One Level' until this level is shown. 
+
+![Connect to WMS data source](images/ArcMap_DHPS_02.png)
+
+Unlike the non-authenticated GeoMet layers, all authenticated layers are hidden such that they can't be discovered from the tree available through a connection to the top level of GeoMet. Rather, each layer needs to be added individually as a separate WMS connection. Double-click 'GIS Servers', then 'Add WMS Server'. We then need to supply a geomet path complete with hidden layer name. To view, for example, the 1km river discharge output from the Deterministic Hydrologic Prediction System (DHPS), enter a name of your choosing for the connection (e.g. "DHPS_1km_RiverDischarge") then enter the URL to the WMS layer, complete with the "LAYERS" parameter and name of layer you wish to connect to: https://geo.weather.gc.ca/geomet?LAYERS=DHPS_1km_RiverDischarge. Add User and Password credentials at the bottom. Click OK.
+
+## Add Layer to Map
 This will take you back to the file/folder dialog. Select the newly added 'MSC GeoMet' entry and drill down to the layer name ("DHPS - Streamflow discharge [m^3/s]" for this example) and click 'Add'.
 
-Unfortunately the default styling applied to the DHPS image is biased towards very large streamflow, so the loaded image is mostly black. We'll need to apply a better style but fortunately there is one ready to use. Expand the MSC GeoMet entry in the 'Table of Contents', right-click on DHPS - Streamflow discharge [m^3/s] and open the layer properties. On the Styles tab, under 'Select layer style', there is a drop down list of available styles; select 'RiverDischarge' and ok. Now we have a much more useful range of colours.
+![Connect to WMS data source](images/ArcMap_DHPS_03.png)
+
+This shows the extent of the layer, but it's all dark and there's not much to see, even if we zoom to a smaller area:
+
+![Connect to WMS data source](images/ArcMap_DHPS_04.png)
+
+The reason is that the DHPS river discharge WMS layer includes multiple styles to address wide variations in flow magnitude across Canada. The previous steps should have loaded the default style, but they did not - this is something that needs to be addressed in a later version. 
+
+We need to apply a better style but fortunately there is one ready to use. Expand the MSC GeoMet entry in the 'Table of Contents', right-click on DHPS - Streamflow discharge [m^3/s] and open the layer properties. On the Styles tab, under 'Select layer style', there is a drop down list of available styles. These have different legends to display different flow magnitudes more effectively, ranging (for the DHPS discharge example) from smaller rivers "RiverDischarge_S" to very large rivers "RiverDischarge_XL". Select 'RiverDischarge' and ok. Now we have a much more useful range of colours.
+
+![Connect to WMS data source](images/ArcMap_DHPS_05.png)
+
+##View Data
 
 
 
@@ -16,4 +37,5 @@ Unfortunately the default styling applied to the DHPS image is biased towards ve
 
 
 
-![Connect to WMS data source](images/01_add_wms_data_source.PNG)
+
+
