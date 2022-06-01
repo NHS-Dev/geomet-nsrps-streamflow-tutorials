@@ -28,9 +28,13 @@ This shows the extent of the layer, but it's all dark and there's not much to se
 
 The reason is that the DHPS river discharge WMS layer includes multiple styles to address wide variations in flow magnitude across Canada. The previous steps should have loaded the default style, but they did not - this is something that needs to be addressed in a later version. 
 
-We need to apply a better style but fortunately there is one ready to use. Expand the MSC GeoMet entry in the Contents pane and select DHPS - Streamflow discharge [m^3/s]. There should now be a highlighted 'Appearance' tab on the toolbar. Select this tab, then the Symbology button to open the Symbology pane. In the Symbology drop-down box, it shows that the layer is already using the RiverDischarge symbology (designed for a large range of flows), however this is not working properly. To apply the RiverDischarge symbology, select any of the other options then re-select RiverDischarge. The colour style should update live (maybe after a few seconds depending on processing capacity). Now we have a much more useful range of colours.
+We need to apply a better style but fortunately there is one ready to use. Expand the MSC GeoMet entry in the Contents pane and select DHPS - Streamflow discharge [m^3/s]. There should now be a highlighted 'Appearance' tab on the toolbar. Select this tab, then the Symbology button to open the Symbology pane. In the Symbology drop-down box, it shows that the layer is already using the RiverDischarge symbology (designed for a large range of flows), however this is not working properly. To apply the RiverDischarge symbology, select any of the other options then re-select RiverDischarge. The colour style should update live (maybe after a few seconds depending on processing capacity).
 
-![River Discharge layer zoomed to eastern Ontario and SW Quebec](images/ArcPro_DHPS_06.png)
+![Appearance tab and Symboloby pane](images/ArcPro_DHPS_06.png)
+
+Now we have a much more useful range of colours.
+
+![River Discharge layer zoomed to eastern Ontario and SW Quebec](images/ArcPro_DHPS_07.png)
 
 ## View Data
 
@@ -38,7 +42,7 @@ Finally, while the WMS is suited more for raster imagery, you can also view the 
 
 Click on the point of interest and the result will appear in the Identify tool's pop-up box. For example, for the DHPS 1km River Discharge in the Ottawa River near Britannia Beach at the time of writing:
 
-![Explore pop-up with DHPS value at Britannia](images/ArcPro_DHPS_07.png)
+![Explore pop-up with DHPS value at Britannia](images/ArcPro_DHPS_08.png)
 
 If the Explore tool returns multiple results, the tool is including results from surrounding pixels; zooming closer will improve the function.
 
