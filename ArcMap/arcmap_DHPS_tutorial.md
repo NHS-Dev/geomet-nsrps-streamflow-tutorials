@@ -38,7 +38,7 @@ Finally, while the WMS is suited more for raster imagery, you can also view the 
 
 Click on the point of interest and the result will appear in the Identify tool's pop-up box. For example, for the DHPS 1km River Discharge in the Ottawa River near Britannia Beach at the time of writing:
 
-![Identify button](images/ArcMap_DHPS_07.png)
+![Identify results](images/ArcMap_DHPS_07.png)
 
 If the Identify tool returns multiple results, the tool is including results from surrounding pixels; zooming closer will improve the function.
 
