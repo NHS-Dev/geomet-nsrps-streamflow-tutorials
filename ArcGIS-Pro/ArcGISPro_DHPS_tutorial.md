@@ -32,19 +32,15 @@ We need to apply a better style but fortunately there is one ready to use. Expan
 
 ![River Discharge layer zoomed to eastern Ontario and SW Quebec](images/ArcPro_DHPS_06.png)
 
-## Updated to here!
-
 ## View Data
 
-Finally, while the WMS is suited more for raster imagery, you can also view the underlying values by selecting a grid cell using 'Identify'. for this to work in ArcMap, it is necessary to zoom (very) close to the feature(s) of interest, and select 'Identify' from the toolbar.
-
-![Identify button](images/ArcMap_DHPS_06.png)
+Finally, while the WMS is suited more for raster imagery, you can also view the underlying values by selecting a grid cell using 'Explore'. for this to work in ArcGIS Pro, it is necessary to zoom (very) close to the feature(s) of interest, and select 'Explore' from the 'Map' tab on the toolbar.
 
 Click on the point of interest and the result will appear in the Identify tool's pop-up box. For example, for the DHPS 1km River Discharge in the Ottawa River near Britannia Beach at the time of writing:
 
-![Identify button](images/ArcMap_DHPS_07.png)
+![Explore pop-up with DHPS value at Britannia](images/ArcPro_DHPS_07.png)
 
-If the Identify tool returns multiple results, the tool is including results from surrounding pixels; zooming closer will improve the function.
+If the Explore tool returns multiple results, the tool is including results from surrounding pixels; zooming closer will improve the function.
 
 
 
