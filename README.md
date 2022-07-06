@@ -16,10 +16,10 @@ the Deterministic Hydrological Prediction System (DHPS).
 Known limitations:
 * WCS layers are not accessible through GIS packages - the GeoMet implementation is not compatible with QGIS or
   either Esri product.
-* Although WCS is gradually being replaced by OGC API - Coverages in GeoMet, the authentication component and
+* Although WCS is gradually being replaced by *OGC API - Coverages* in GeoMet, the authentication component and
   consequently the prediction products are not yet available through that protocol.
 * The 'hidden', authentication-protected layers cannot be listed through a programmed or user interface
-  command; the user must request the specific layer by name. A list of available layers is included at the end
+  command; the user must request the specific layer by name. A list of available layers will be included at the end
   of this file.
 
 
