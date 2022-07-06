@@ -1,4 +1,4 @@
-# MSC Geomet Example - Connecting to Authenticated Layers with ArcMap
+# MSC Geomet Example - Connecting to Authenticated WMS with ArcMap
 
 This example shows how to connect ArcMap to the username/password authenticated Web Map Service (WMS) layers on the Meteorological Service of Canada (MSC) GeoMet platform.
 
