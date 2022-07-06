@@ -1,4 +1,4 @@
-# MSC Geomet Example - Connecting to Authenticated Layers with QGIS
+# MSC Geomet Example - Connecting to Authenticated WMS with QGIS (V3.16.7)
 
 This example shows how to connect QGIS to the username/password authenticated Web Map Service (WMS) layers on the Meteorological Service of Canada (MSC) GeoMet platform.
 
