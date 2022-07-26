@@ -73,4 +73,4 @@ This will open the control panel for time-enabled layers with time navigation di
 
 ![Activate time animation from Temporal control panel](images/13_QGIS_Time_Panel.png)
 
-In the control panel, the time/date range should correspond to the range of the forecast, and for DHPS, a time step in hours makes sense. From here, the user can experiment with settings and the play/animate controls. To change the playback speed, click the yellow gear button in the top-right of the panel.
+In the control panel, the time/date range should correspond to the range of the forecast, and for DHPS, a time step in hours makes sense. From here, the user can experiment with settings and the play/animate controls. To change the playback speed, click the yellow gear button in the top-right of the panel. One note to add, the author found that the time range for the layer only seems correct at the time of loading and updating the range did not seem to work if, say, the user returns to the project the next day.
