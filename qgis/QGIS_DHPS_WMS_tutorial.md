@@ -63,10 +63,14 @@ Here's Ottawa River at Brittania, as an example.
 
 ![Selecting grid cell to view data](images/11_identify_features_select.PNG)
 
+## View 'Time-enabled' Data
 
+Many datasets available on the GeoMet platform include data for a range of times. In the case of DHPS, a 12-hour assimilation cycle is followed by a 6-day forecast. When DHPS is loaded into a GIS package, it is possible to step or animate through the forecast period. To view the time range for DHPS, first activate the Temporal Controller Panel:
 
+![Select Temporal Controller Panel from toolbar](images/12_QGIS_Time_1.png)
 
+This will open the control panel for time-enabled layers with time navigation disabled. Click the button with a small green 'play' triangle to activate 'Animated temporal navigation' and the settings for the time range and step.
 
+![Activate time animation from Temporal control panel](images/13_QGIS_Time_Panel.png)
 
-
-
+In the control panel, the time/date range should correspond to the range of the forecast, and for DHPS, a time step in hours makes sense. From here, the user can experiment with settings and the play/animate controls. To change the playback speed, click the yellow gear button in the top-right of the panel.
