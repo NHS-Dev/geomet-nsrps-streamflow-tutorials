@@ -48,9 +48,9 @@ If the Explore tool returns multiple results, the tool is including results from
 
 ## View 'Time-enabled' Data
 
-Many datasets available on the GeoMet platform include data for a range of times. In the case of DHPS, a 12-hour assimilation cycle is followed by a 6-day forecast. When DHPS is loaded into a GIS package, it is possible to step or animate through the forecast period. In ArcGIS Pro, when a 'time-enabled' WMS layer is added to a map, a time slider bar will appear as a kind of ghost image along the top of the view.
-
 **An important note regarding viewing time-enabled WMS layers in ArcGIS Pro: ESRI is/was aware of an issue with certain versions of ArcGIS Pro where loading the timed layer(s) appears to work, but actually viewing different time steps does not work. Thes appears to be fixed in recent versions. In testing to prepare this tutorial, the author was unable to animate or select alternate time steps in version 2.6.0, but version 2.9.3 appeared to function as expected.**
+
+Many datasets available on the GeoMet platform include data for a range of times. In the case of DHPS, a 12-hour assimilation cycle is followed by a 6-day forecast. When DHPS is loaded into a GIS package, it is possible to step or animate through the forecast period. In ArcGIS Pro, when a 'time-enabled' WMS layer is added to a map, a time slider bar will appear as a kind of ghost image along the top of the view.
 
 !['Ghost' of time slider before activation](images/ArcPro_DHPS_09.png)
 
