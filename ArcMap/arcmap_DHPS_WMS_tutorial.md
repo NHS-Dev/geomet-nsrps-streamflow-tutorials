@@ -42,9 +42,16 @@ Click on the point of interest and the result will appear in the Identify tool's
 
 If the Identify tool returns multiple results, the tool is including results from surrounding pixels; zooming closer will improve the function.
 
+## View 'Time-enabled' Data
 
+Many datasets available on the GeoMet platform include data for a range of times. In the case of DHPS, a 12-hour assimilation cycle is followed by a 6-day forecast. When DHPS is loaded into a GIS package, it is possible to step or animate through the forecast period. To view the time range for DHPS, first activate the Time Slider from the Tools toolbar.
 
+![Location of Time Slider button on toolbar](images/ArcMap_DHPS_08.png)
 
+The time slider allows user control over the time step being viewed and/or continuous playback over the available time range. To control the time step increment and data range, click the settings button on the Time Slider.
 
+![Location of Settings button on Time Slider](images/ArcMap_DHPS_09.png)
+![Settings dialog box for Time Slider](images/ArcMap_DHPS_10.png)
 
+Unlike QGIS and ArcGIS, ArcMap appears happy to update the viewable range if/when the user returns to the project after new time data becomes available (for example, a day or days later). The function isn't obvious, but when the author changed the time step increment in settings on version 10.8.1, ArcMap reliably updated the view range.
 
