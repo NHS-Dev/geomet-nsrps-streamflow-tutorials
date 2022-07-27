@@ -46,7 +46,23 @@ Click on the point of interest and the result will appear in the Identify tool's
 
 If the Explore tool returns multiple results, the tool is including results from surrounding pixels; zooming closer will improve the function.
 
+## View 'Time-enabled' Data
 
+Many datasets available on the GeoMet platform include data for a range of times. In the case of DHPS, a 12-hour assimilation cycle is followed by a 6-day forecast. When DHPS is loaded into a GIS package, it is possible to step or animate through the forecast period. In ArcGIS Pro, when a 'time-enabled' WMS layer is added to a map, a time slider bar will appear as a kind of ghost image along the top of the view.
+
+**An important note regarding viewing time-enabled WMS layers in ArcGIS Pro: ESRI is/was aware of an issue with certain versions of ArcGIS Pro where loading the timed layer(s) appears to work, but actually viewing different time steps does not work. Thes appears to be fixed in recent versions. In testing to prepare this tutorial, the author was unable to animate or select alternate time steps in version 2.6.0, but version 2.9.3 appeared to function as expected.**
+
+!['Ghost' of time slider before activation](images/ArcPro_DHPS_09.png)
+
+To activate the time slider, click the clock button at the left end of the slider to enable the time functions.
+
+![Time slider with the on/off button circled](images/ArcPro_DHPS_10.png)
+
+In addition to displaying the time slider, when a time-enabled layer is loaded into the map, the Time tab is added to the tool bar.
+
+![Time settings tab under Map section in ArcGIS Pro toolbar](images/ArcPro_DHPS_11.png)
+
+On the Time tab you'll find most if not all the settings related to controlling the viewing and animating of the time-enabled layer(s). For DHPS, it appears to work well to set the Span (at left) to zero, set the time interval to 1 or 2 hours, and reduce the Playback speed by 20-30%. Note also that when the layer is loaded, the full time extent of the slider should be appropriate, but does not appear to update if, say, the user returns to the same map a day later when a new forecast range is available.
 
 
 
