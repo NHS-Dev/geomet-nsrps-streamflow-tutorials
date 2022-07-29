@@ -1,4 +1,4 @@
-# MSC Geomet Example - Connecting to Authenticated WMS with ArcGIS Pro (tested mostly on V2.6.0, time functions on 2.9.3)
+# MSC Geomet Example - Connecting to Authenticated WMS with ArcGIS Pro (tested mostly on V2.6.0, time functions on V2.9.3)
 
 This example shows how to connect ArcGIS Pro to the username/password authenticated Web Map Service (WMS) layers on the Meteorological Service of Canada (MSC) GeoMet platform.
 
