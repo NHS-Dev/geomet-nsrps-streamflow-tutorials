@@ -8,8 +8,8 @@ GeoMet platform (https://eccc-msc.github.io/open-data/msc-geomet/readme_en/) tha
 authentication. At present these products are available as Web Map Service (WMS) and Web Coverage Service (WCS)
 layers.
 
-The files in this root folder of the repository are primarily Jupyter Notebooks demonstrating the process to
-access and display WMS and WCS prediction layers. Subfolders contain a series of tutorials demonstrating how
+The files in the Python folder of the repository are primarily Jupyter Notebooks demonstrating the process to
+access and display WMS and WCS prediction layers. The other subfolders contain a series of tutorials demonstrating how
 to load and display authentication-protected WMS layers with ArcGIS Pro, ArcMap and QGIS using the example of
 the Deterministic Hydrological Prediction System (DHPS).
 
