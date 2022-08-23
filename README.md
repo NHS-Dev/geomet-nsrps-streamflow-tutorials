@@ -39,7 +39,7 @@ Known limitations:
 * DHPS-Analysis_1km_Precip-SpatialAvg12h
 * DHPS-Analysis_1km_RiverChannelStorage
 * DHPS-Analysis_1km_TotalRunoff-Avg12h
-*
+
 * EHPS_1km_CorrectedFlowDir
 * EHPS_1km_DrainageArea
 * EHPS_1km_WaterbodyID
@@ -67,7 +67,7 @@ Known limitations:
 * EHPS-Analysis_1km_Precip-SpatialAvg12h
 * EHPS-Analysis_1km_RiverChannelStorage
 * EHPS-Analysis_1km_TotalRunoff-Avg12h
-*
+
 * WCPS-Rivers_1km_CorrectedFlowDir
 * WCPS-Rivers_1km_DeepReservoirStorage_PT24H
 * WCPS-Rivers_1km_DrainageArea
