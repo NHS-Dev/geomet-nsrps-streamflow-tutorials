@@ -1,7 +1,5 @@
-Readme - work in progress
 
 ## Guides/assistance for Authentication-protected GeoMet datasets
-#### Last updated 2022-08-23 by Natalie
 
 This repository contains a collection of guides and tutorials for connecting to prediction products on the 
 GeoMet platform (https://eccc-msc.github.io/open-data/msc-geomet/readme_en/) that are currently protected by
