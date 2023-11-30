@@ -19,6 +19,8 @@ Known limitations:
 * The 'hidden', authentication-protected layers cannot be listed through a programmed or user interface
   command; the user must request the specific layer by name. A list of available layers will be included at the end
   of this file.
+* A comprehensive list of layer metadata, including forecast issue times and forecast time steps, is only available via queries to the WMS. The WCS has limited metadata and notably, it does not provide information about forecast issue times or forecast time steps.
+* Queries to the WCS for certain types of data can be time intensive, particularly for ensemble forecasts, where a new query is needed to retrieve each ensemble member.
   
 ### List of available hidden layers
 
