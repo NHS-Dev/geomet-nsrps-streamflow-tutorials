@@ -40,34 +40,6 @@ Known limitations:
 * DHPS-Analysis_1km_RiverChannelStorage
 * DHPS-Analysis_1km_TotalRunoff-Avg12h
 
-* EHPS_1km_CorrectedFlowDir
-* EHPS_1km_DrainageArea
-* EHPS_1km_WaterbodyID
-* EHPS_1km_RiverDischarge_Mem01
-* EHPS_1km_RiverDischarge_Mem..
-* EHPS_1km_RiverDischarge_Mem21
-* EHPS_1km_DeepReservoirStorage_PT24H_Mem01
-* EHPS_1km_DeepReservoirStorage_PT24H_Mem..
-* EHPS_1km_DeepReservoirStorage_PT24H_Mem21
-* EHPS_1km_RiverChannelStorage_PT24H_Mem01
-* EHPS_1km_RiverChannelStorage_PT24H_Mem..
-* EHPS_1km_RiverChannelStorage_PT24H_Mem21
-* EHPS_1km_Evap-SpatialAvg12h_PT12H_Mem01
-* EHPS_1km_Evap-SpatialAvg12h_PT12H_Mem..
-* EHPS_1km_Evap-SpatialAvg12h_PT12H_Mem21
-* EHPS_1km_Precip-SpatialAvg12h_PT12H_Mem01
-* EHPS_1km_Precip-SpatialAvg12h_PT12H_Mem..
-* EHPS_1km_Precip-SpatialAvg12h_PT12H_Mem21
-* EHPS_1km_TotalRunoff-Avg12h_PT12H_Mem01
-* EHPS_1km_TotalRunoff-Avg12h_PT12H_Mem..
-* EHPS_1km_TotalRunoff-Avg12h_PT12H_Mem21
-* EHPS-Analysis_1km_RiverDischarge
-* EHPS-Analysis_1km_DeepReservoirStorage
-* EHPS-Analysis_1km_Evap-SpatialAvg12h
-* EHPS-Analysis_1km_Precip-SpatialAvg12h
-* EHPS-Analysis_1km_RiverChannelStorage
-* EHPS-Analysis_1km_TotalRunoff-Avg12h
-
 * WCPS-Rivers_1km_CorrectedFlowDir
 * WCPS-Rivers_1km_DeepReservoirStorage_PT24H
 * WCPS-Rivers_1km_DrainageArea
@@ -82,6 +54,3 @@ Known limitations:
 * WCPS-Rivers-Analysis_1km_Evap-SpatialAvg12h
 * WCPS-Rivers-Analysis_1km_Precip-SpatialAvg12h
 * WCPS-Rivers-Analysis_1km_RiverChannelStorage
-
-
-
