@@ -29,7 +29,7 @@ You can now use the browser window to drill down in the newly added data source 
 
 ![Add layer](images/05a_add_layer_default_style.PNG)
 
-![Add layer](images/0b5_default_dhps_layer.png)
+![Add layer](images/05b_default_dhps_layer.png)
 
 This opens up the default style DHPS and shows us the extent of the layer. However, this may not be the style wanted. The DHPS river discharge WMS layer includes multiple styles to address wide variations in flow magnitude across Canada.
 
@@ -41,7 +41,7 @@ In the Data Source Manager dialog box, select the data source of interest from t
 
 ![Select layer with style](images/07_add_wms_layer_with_style.PNG)
 
-Choosing "RiverDischarge" is the default style that is already open. To support the "Identify Features" function in the last step of this tutorial, let's set "Maximum Number of GetFeatureInfo Results" to 1. Click "Add".
+Choosing "RiverDischarge" is the default style that is already open. To support the "Identify Features" function in this tutorial, let's set "Maximum Number of GetFeatureInfo Results" to 1. Click "Add".
 
 ![River discharge true default](images/08_river_discharge_true_default.PNG)
 
@@ -81,6 +81,8 @@ Within this GitHub repository is a file called nsrps_model_stn_locs.json. This c
 
 In the window that pops up, select the "..." box to browse to the file location. Select the wanted file and then click "Add".
 
+![Search file](images/15_select_vector_data.png)
+
 In the image below, you can see the stations added as grey dots. The user can adjust the transparency of the RiverDischarge layer as they see fit to assist in viewing the stations. This can be done by right clicking on the layer and selecting "Properties...".
 
 ![Select vector](images/16_stations_added.png)
@@ -93,7 +95,7 @@ To make the stations easier to see, double click on the station layer, go to Sym
 
 ![Station symbology](images/18_change_station_symbology.png)
 
-Now we can easily view station, the DHPS layer, and our base map!
+Now we can easily view stations, the DHPS layer, and our base map!
 
 ![View station](images/19_view_station.png)
 
