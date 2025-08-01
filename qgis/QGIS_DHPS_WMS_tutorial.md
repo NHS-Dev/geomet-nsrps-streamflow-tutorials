@@ -27,23 +27,21 @@ Select "OK" and then in Data Source Manager ensure the new layer is selected and
 
 You can now use the browser window to drill down in the newly added data source and add the individual layer to the project.
 
-![Default style is incorrect](images/05a_add_layer_default_style.PNG)
+![Add layer](images/05a_add_layer_default_style.PNG)
 
-![Default style is incorrect](images/05b_river_discharge_false_default.PNG)
+![Add layer](images/0b5_default_dhps_layer.png)
 
-This shows the extent of the layer, but it's all dark and there's not much to see. 
-
-The reason is that the DHPS river discharge WMS layer includes multiple styles to address wide variations in flow magnitude across Canada. The previous steps should have loaded the default style, but they did not - this is something that needs to be addressed in a later version.
+This opens up the default style DHPS and shows us the extent of the layer. However, this may not be the style wanted. The DHPS river discharge WMS layer includes multiple styles to address wide variations in flow magnitude across Canada.
 
 To view additional styles, you can add each style as a separate layer. Select "Layer -> Add Layer -> Add WMS/WMTS Layer...".
 
-![Add layer from data source](images/06_add_layer_from_data_source.PNG)
+![Add layer from data source](images/06_add_layer_from_data_source.png)
 
 In the Data Source Manager dialog box, select the data source of interest from the drop down list at the top and click "Connect". Drill down in the data source you added previously until you see several style options. These have different legends to display different flow magnitudes more effectively, ranging (for the DHPS discharge example) from smaller rivers "RiverDischarge_S" to very large rivers "RiverDischarge_XL".
 
 ![Select layer with style](images/07_add_wms_layer_with_style.PNG)
 
-Choose "RiverDischarge", which is the true default style. To support the "Identify Features" function in the last step of this tutorial, set "Feature limit for GetFeatureInfo" to 1. Click "Add".
+Choosing "RiverDischarge" is the default style that is already open. To support the "Identify Features" function in the last step of this tutorial, let's set "Maximum Number of GetFeatureInfo Results" to 1. Click "Add".
 
 ![River discharge true default](images/08_river_discharge_true_default.PNG)
 
@@ -74,3 +72,28 @@ This will open the control panel for time-enabled layers with time navigation di
 ![Activate time animation from Temporal control panel](images/13_QGIS_Time_Panel.png)
 
 In the control panel, the time/date range should correspond to the range of the forecast, and for DHPS, a time step in hours makes sense. From here, the user can experiment with settings and the play/animate controls. To change the playback speed, click the yellow gear button in the top-right of the panel. One note to add, the author found that the time range for the layer only seems correct at the time of loading and updating the range did not seem to work if, say, the user returns to the project the next day.
+
+## View Stations
+
+Within this GitHub repository is a file called nsrps_model_stn_locs.json. This contains all the model-world station locations. We can import this into our project to view the stations by selecting "Layer -> Add Layer -> Add Vector Layer...".
+
+![Add vector data](images/14_add_vector_data.png)
+
+In the window that pops up, select the "..." box to browse to the file location. Select the wanted file and then click "Add".
+
+In the image below, you can see the stations added as grey dots. The user can adjust the transparency of the RiverDischarge layer as they see fit to assist in viewing the stations. This can be done by right clicking on the layer and selecting "Properties...".
+
+![Select vector](images/16_stations_added.png)
+
+Select the Transparency tab on the left-side menu, modify the Global Opacity and select "OK". In this example, it is being modified to 50%.
+
+![Change transparency](images/17_change_transparency.png)
+
+To make the stations easier to see, double click on the station layer, go to Symbology, and select the type of marker of interest. Once selected, click "OK".
+
+![Station symbology](images/18_change_station_symbology.png)
+
+Now we can easily view station, the DHPS layer, and our base map!
+
+![View station](images/19_view_station.png)
+
