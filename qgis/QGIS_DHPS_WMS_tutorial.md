@@ -35,7 +35,7 @@ This opens up the default style DHPS and shows us the extent of the layer. Howev
 
 To view additional styles, you can add each style as a separate layer. Select "Layer -> Add Layer -> Add WMS/WMTS Layer...".
 
-![Add layer from data source](images/06_add_layer_from_data_source.png)
+![Add layer from data source](images/06_add_layer_from_data_source.PNG)
 
 In the Data Source Manager dialog box, select the data source of interest from the drop down list at the top and click "Connect". Drill down in the data source you added previously until you see several style options. These have different legends to display different flow magnitudes more effectively, ranging (for the DHPS discharge example) from smaller rivers "RiverDischarge_S" to very large rivers "RiverDischarge_XL".
 
