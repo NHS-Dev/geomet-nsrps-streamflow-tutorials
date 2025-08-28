@@ -1,12 +1,15 @@
 name: geomet
 channels:
+  - conda-forge
   - defaults
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
   - https://repo.anaconda.com/pkgs/msys2
 dependencies:
+  - affine=2.3.0=pyhd3eb1b0_0
   - aom=3.6.0=hd77b12b_0
   - asttokens=3.0.0=py310haa95532_0
+  - attrs=24.3.0=py310haa95532_0
   - blas=1.0=mkl
   - bleach=6.2.0=py310haa95532_0
   - blosc=1.21.3=h6c2663c_0
@@ -17,14 +20,18 @@ dependencies:
   - brotli-python=1.0.9=py310h5da7b33_9
   - brotlicffi=1.0.9.2=py310h5da7b33_1
   - bzip2=1.0.8=h2bbff1b_6
-  - ca-certificates=2025.2.25=haa95532_0
+  - ca-certificates=2025.8.3=h4c7d964_0
   - cairo=1.16.0=h85cdd14_6
   - cartopy=0.22.0=py310h4748b25_0
-  - certifi=2025.7.14=py310haa95532_0
+  - certifi=2025.8.3=pyhd8ed1ab_0
   - cffi=1.17.1=py310h827c3e9_1
+  - cfgrib=0.9.15.0=pyhd8ed1ab_0
   - cfitsio=3.470=h2bbff1b_7
   - cftime=1.6.4=py310h827c3e9_0
   - charset-normalizer=3.3.2=pyhd3eb1b0_0
+  - click=8.1.8=py310haa95532_0
+  - click-plugins=1.1.1=pyhd3eb1b0_0
+  - cligj=0.7.2=pyhd3eb1b0_0
   - colorama=0.4.6=py310haa95532_0
   - colorcet=3.1.0=py310haa95532_0
   - comm=0.2.1=py310haa95532_0
@@ -35,9 +42,11 @@ dependencies:
   - dav1d=1.2.1=h2bbff1b_0
   - debugpy=1.8.11=py310h5da7b33_0
   - decorator=5.1.1=pyhd3eb1b0_0
+  - eccodes=2.26.0=h36aa8e7_0
   - exceptiongroup=1.2.0=py310haa95532_0
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.7.1=h8ddb27b_0
+  - findlibs=0.1.2=pyhd8ed1ab_0
   - folium=0.14.0=py310haa95532_0
   - fontconfig=2.14.1=hb33846d_3
   - fonttools=4.55.3=py310h827c3e9_0
@@ -48,13 +57,13 @@ dependencies:
   - geopandas=1.0.1=py310haa95532_0
   - geopandas-base=1.0.1=py310haa95532_0
   - geos=3.10.6=he74ecf9_0
-  - geotiff=1.7.0=hbf7d8e7_4
+  - geotiff=1.7.0=h4545760_3
   - geoviews=1.14.0=py310haa95532_0
   - geoviews-core=1.14.0=py310haa95532_0
   - graphite2=1.3.14=hd77b12b_1
   - harfbuzz=10.2.0=he2f9f60_1
   - hdf4=4.2.13=h712560f_2
-  - hdf5=1.14.5=ha36df97_2
+  - hdf5=1.12.1=nompi_h57737ce_104
   - holoviews=1.21.0=py310haa95532_0
   - hvplot=0.11.3=py310haa95532_0
   - icc_rt=2022.1.0=h6049295_2
@@ -64,6 +73,7 @@ dependencies:
   - ipykernel=6.29.5=py310haa95532_1
   - ipython=8.30.0=py310haa95532_0
   - ipywidgets=8.1.5=py310haa95532_0
+  - jasper=2.0.33=hc2e4405_1
   - jedi=0.19.2=py310haa95532_0
   - jinja2=3.1.6=py310haa95532_0
   - joblib=1.4.2=py310haa95532_0
@@ -72,33 +82,41 @@ dependencies:
   - jupyter_client=8.6.3=py310haa95532_0
   - jupyter_core=5.8.1=py310haa95532_0
   - jupyterlab_widgets=3.0.15=py310haa95532_0
-  - kealib=1.5.0=h6c4040a_2
+  - kealib=1.5.0=hde4a422_1
   - kiwisolver=1.4.8=py310h5da7b33_0
   - krb5=1.21.3=he4457a5_1
-  - lcms2=2.16=h62be587_1
+  - lcms2=2.15=ha5c8aab_0
   - lerc=4.0.0=h5da7b33_0
+  - libaec=1.1.4=h20038f6_0
   - libavif=1.1.1=h827c3e9_0
   - libboost=1.82.0=h3399ecb_2
   - libcurl=8.14.1=ha9f67de_0
   - libdeflate=1.22=h5bf469e_0
   - libffi=3.4.4=hd77b12b_1
-  - libgdal=3.6.2=hdf1f3d4_10
+  - libgdal=3.6.2=he0cae08_9
   - libglib=2.84.2=h405b238_0
   - libiconv=1.16=h2bbff1b_3
   - libkml=1.3.0=h63940dd_7
-  - libnetcdf=4.8.1=h99c5407_5
+  - libnetcdf=4.8.1=h6685c40_4
   - libpng=1.6.39=h8cc25b3_0
   - libpq=17.4=h4a159e6_1
   - libsodium=1.0.18=h62dcd97_0
   - libspatialite=5.1.0=h6715bb4_2
   - libssh2=1.11.1=h2addb87_0
-  - libtiff=4.7.0=h404307b_0
+  - libtiff=4.5.1=h44ae7cf_1
   - libwebp-base=1.3.2=h3d04722_1
+  - libxcb=1.13=hcd874cb_1004
   - libxml2=2.13.8=h866ff63_0
   - libzip=1.8.0=h289538f_1
+  - libzlib=1.2.13=h2466b09_6
   - linkify-it-py=2.0.0=py310haa95532_0
   - llvmlite=0.44.0=py310h8b1c7eb_1
   - lz4-c=1.9.4=h2bbff1b_1
+  - m2w64-gcc-libgfortran=5.3.0=6
+  - m2w64-gcc-libs=5.3.0=7
+  - m2w64-gcc-libs-core=5.3.0=7
+  - m2w64-gmp=6.1.0=2
+  - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - mapclassify=2.5.0=py310haa95532_0
   - markdown=3.8=py310haa95532_0
   - markdown-it-py=2.2.0=py310haa95532_1
@@ -113,6 +131,7 @@ dependencies:
   - mkl-service=2.4.0=py310h827c3e9_2
   - mkl_fft=1.3.11=py310h827c3e9_0
   - mkl_random=1.2.8=py310hc64d2fc_0
+  - msys2-conda-epoch=20160418=1
   - multipledispatch=0.6.0=py310haa95532_0
   - nest-asyncio=1.6.0=py310haa95532_0
   - netcdf4=1.7.2=py310hd3e7ead_1
@@ -121,8 +140,8 @@ dependencies:
   - numexpr=2.11.0=py310hdb065b2_0
   - numpy=1.26.4=py310h055cbcc_0
   - numpy-base=1.26.4=py310h65a83cf_0
-  - openjpeg=2.5.2=h9b5d1b5_1
-  - openssl=3.0.16=h3f729d1_0
+  - openjpeg=2.5.0=ha2aaf27_2
+  - openssl=3.5.1=h725018a_0
   - owslib=0.24.1=pyhd3eb1b0_0
   - packaging=24.2=py310haa95532_0
   - pandas=2.2.3=py310h5da7b33_0
@@ -130,17 +149,18 @@ dependencies:
   - param=2.2.1=py310haa95532_0
   - parso=0.8.4=py310haa95532_0
   - pcre2=10.42=h0ff8eda_1
-  - pillow=11.3.0=py310hb328d1f_0
+  - pillow=9.4.0=py310hdbb7713_1
   - pip=25.1=pyhc872135_2
   - pixman=0.40.0=h2bbff1b_1
   - platformdirs=4.3.7=py310haa95532_0
   - pooch=1.8.2=py310haa95532_0
-  - poppler=24.09.0=h1538a65_3
+  - poppler=24.09.0=h4f47ea2_0
   - poppler-data=0.4.11=haa95532_1
-  - proj=9.3.1=h4c8f42b_1
+  - proj=9.3.1=ha107b6e_0
   - prompt-toolkit=3.0.43=py310haa95532_0
   - prompt_toolkit=3.0.43=hd3eb1b0_0
   - psutil=5.9.0=py310h827c3e9_1
+  - pthread-stubs=0.4=hcd874cb_1001
   - pure_eval=0.2.2=pyhd3eb1b0_0
   - pycparser=2.21=pyhd3eb1b0_0
   - pyct=0.5.0=py310haa95532_0
@@ -154,7 +174,9 @@ dependencies:
   - pysocks=1.7.1=py310haa95532_0
   - python=3.10.18=h981015d_0
   - python-dateutil=2.9.0post0=py310haa95532_2
+  - python-eccodes=1.5.1=py310h9b08ddd_0
   - python-tzdata=2025.2=pyhd3eb1b0_0
+  - python_abi=3.10=2_cp310
   - pytz=2025.2=py310haa95532_0
   - pyviz_comms=3.0.2=py310haa95532_0
   - pywin32=308=py310h5da7b33_0
@@ -167,7 +189,9 @@ dependencies:
   - qttools=6.7.3=h0de5f00_0
   - qtwebchannel=6.7.3=h5da7b33_0
   - qtwebsockets=6.7.3=h5da7b33_0
+  - rasterio=1.4.3=py310he5c4563_0
   - requests=2.32.4=py310haa95532_0
+  - rioxarray=0.18.1=py310haa95532_0
   - scikit-learn=1.6.1=py310h585ebfc_0
   - scipy=1.15.3=py310h180bac5_0
   - setuptools=78.1.1=py310haa95532_0
@@ -203,9 +227,11 @@ dependencies:
   - win_inet_pton=1.1.0=py310haa95532_0
   - xarray=2025.4.0=py310haa95532_0
   - xerces-c=3.2.4=hd77b12b_1
+  - xorg-libxau=1.0.11=hcd874cb_0
+  - xorg-libxdmcp=1.1.3=hcd874cb_0
   - xyzservices=2022.9.0=py310haa95532_1
   - xz=5.6.4=h4754444_1
   - yaml=0.2.5=he774522_0
   - zeromq=4.3.5=hd77b12b_0
-  - zlib=1.2.13=h8cc25b3_1
+  - zlib=1.2.13=h2466b09_6
   - zstd=1.5.6=h8880b57_0
