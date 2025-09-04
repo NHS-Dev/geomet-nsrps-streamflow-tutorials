@@ -1,0 +1,23 @@
+name: geomet
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - cartopy
+  - configparser
+  - geopandas
+  - ipython
+  - matplotlib
+  - numpy
+  - owslib
+  - pandas
+  - python=3.10
+  - shapely
+  - xarray
+  - ipykernel
+  - hvplot
+  - geoviews
+  - jupyter_bokeh
+  - rasterio
+  - cfgrib
+  - rioxarray
